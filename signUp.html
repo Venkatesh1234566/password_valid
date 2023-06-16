@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="./signUp.css">
+</head>
+<body>
+    <div class="box">
+        <div class="tex" >
+            <h3>REGISTER</h3>
+            <br>
+            <div class="boxs">
+                <center>Frist Name</center>
+                <center>Last Name</center><br><br>
+            </div>
+            <div class="name">
+            <center><input type="text" placeholder="Frist Name" required size="15" style="height:25px;font-size:10pt; background-color: rgb(180, 228, 243);"></center><br><br>
+            <center><input type="text" placeholder="Last Name" required size="15" style="height:25px;font-size:10pt;background-color: rgb(180, 228, 243);"></center><br><br>
+            </div>
+            <div class="Age">
+                <center>Age</center>
+                <center>Date of Birth</center><br><br>
+            </div>
+            <div class="date">
+            <select style="background-color: rgb(180, 228, 243);">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <input type="date" style="background-color: rgb(180, 228, 243);">
+            </div><br>
+            <div class="mail">
+           <center>Email   &nbsp;&nbsp;&nbsp;<input type="email"placeholder="enter your mail" required style="height:20px;font-size:10pt;width: 285px ;background-color: rgb(180, 228, 243);" ></center><br>
+           </div>
+           <div class="id1"><center>Password   &nbsp;&nbsp;&nbsp;<input type="password"placeholder="enter your password" required style="height:20px;font-size:10pt;width: 150px;background-color: rgb(180, 228, 243);" id="pass1"></center><br>
+           <div class="id2"><center>Confirm Password   &nbsp;&nbsp;&nbsp;<input type="text"placeholder="confirm your password" required style="height:20px;font-size:10pt;width: 150px;background-color: rgb(180, 228, 243); "id="pass2"></center><br></div>
+           <span id = "message" style="color:rgb(229, 220, 220)"></span>
+           <center><br><input class="reg" type="button" value="Register" style="height:30px;font-size:15pt;" id="but"></center><br>
+           
+        </div>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>

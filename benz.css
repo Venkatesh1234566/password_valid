@@ -1,0 +1,239 @@
+.intro{
+  width:800px;
+  height:200px;
+  margin: auto;
+  font-size: 40px;
+  margin-top: -40%;
+}
+.logo{
+  margin: auto;
+  margin-top: -14%;
+  margin-left:66%;
+  position: absolute;
+}
+h1{
+   margin-left:5%;
+   margin-top:3%;
+}
+.t1{
+   font-family:Lucida Console;
+   color: rgb(250, 230, 6);
+   margin: auto;
+}
+.t2{
+   font-family:Lucida Console;
+   color: aliceblue;
+   margin: auto;
+}
+.fer{
+  margin-top:4%;
+  color: rgb(179, 173, 168);
+}
+.section{
+   width:100%;
+   height:700px;
+   margin-top: 23.3%;
+   background-color: #b94f29 ;
+   display: flex;
+   position: relative;
+}
+.secimg1{
+   width:100%;
+   height:700px;
+   background-image: url("./b1.jpg");
+   background-size: 100% 100%;
+   position: relative;
+}
+.one1{
+   width:600px;
+display: flex;
+justify-content: space-evenly;
+font-size: 20px;
+   font-family:Lucida Console;
+   word-spacing: 2px;
+   line-height: 1.6;
+   color: rgb(8, 8, 8);
+   margin-top: -3%;
+   margin-left:40%;
+   position: absolute;
+}
+.two1{
+   width:630px;
+display: flex;
+justify-content: space-evenly;
+font-size: 20px;
+   font-family:Lucida Console;
+   word-spacing: 2px;
+   line-height: 1.6;
+color: rgb(12, 12, 12);
+   margin-top: 1%;
+   margin-left:40%;
+   position: absolute;
+}
+.text1{
+   width:100%;
+   height:200px;
+   background-color: rgba(32, 30, 30, 0.5);
+   box-sizing: border-box;
+   margin-top: 35%;
+   font-size: 20px;
+   font-family:Lucida Console;
+   color: rgb(242, 246, 249);
+   word-spacing: 2px;
+   line-height: 1.6;
+   position:relative;
+}
+.but1{
+   width:150px;
+   height:50px;
+   border:2px solid beige;
+   margin-top: -40%;
+   margin-left: 5%;
+   border-radius: 15%;
+   background-color: rgba(32, 30, 30, 0.3);
+   position: absolute;
+}
+h3{
+   margin-top: 4%;
+   margin-left: 7%;
+   color: aliceblue;
+}
+.section2{
+   width:100%;
+   height:700px;
+   background-color: #f5da09  ;
+   display: flex;
+   position: relative;
+}
+.secimg2{
+   width:100%;
+   height:700px;
+   background-image: url("./b2.jpeg");
+   background-size: 100% 100%;
+   position: relative;
+}
+.one2{
+   width:600px;
+display: flex;
+justify-content: space-evenly;
+font-size: 20px;
+   font-family:Lucida Console;
+   word-spacing: 2px;
+   line-height: 1.6;
+   color: rgb(248, 244, 244);
+   margin-top: 1%;
+   margin-left:40%;
+   position: absolute;
+}
+.two2{
+   width:630px;
+display: flex;
+justify-content: space-evenly;
+font-size: 20px;
+   font-family:Lucida Console;
+   word-spacing: 2px;
+   line-height: 1.6;
+color: rgb(240, 236, 236);
+   margin-top: 4%;
+   margin-left:40%;
+   position: absolute;
+}
+.text2{
+   width:100%;
+   height:200px;
+   background-color: rgba(32, 30, 30, 0.5);
+   box-sizing: border-box;
+   margin-top: 35%;
+   font-size: 20px;
+   font-family:Lucida Console;
+   color: rgb(242, 246, 249);
+   word-spacing: 2px;
+   line-height: 1.6;
+   position: relative;
+}
+.but2{
+   width:150px;
+   height:50px;
+   border:2px solid beige;
+   margin-top: -40%;
+   margin-left: 5%;
+   border-radius: 15%;
+   background-color: rgba(32, 30, 30, 0.3);
+   position: absolute;
+}
+.section3{
+   width:100%;
+   height:700px;
+   background-color: #f5da09  ;
+   display: flex;
+   position: relative;
+}
+.secimg3{
+   width:100%;
+   height:700px;
+   background-image: url("./b33.jpg");
+   background-size: 100% 100%;
+   position: relative;
+}
+.one3{
+   width:600px;
+display: flex;
+justify-content: space-evenly;
+font-size: 20px;
+   font-family:Lucida Console;
+   word-spacing: 2px;
+   line-height: 1.6;
+   color: rgb(250, 248, 248);
+   margin-top: -1%;
+   margin-left:40%;
+   position: absolute;
+}
+.two3{
+   width:630px;
+display: flex;
+justify-content: space-evenly;
+font-size: 20px;
+   font-family:Lucida Console;
+   word-spacing: 2px;
+   line-height: 1.6;
+color: rgb(242, 246, 249);
+   margin-top: 2%;
+   margin-left:40%;
+   position: absolute;
+}
+.text3{
+   width:100%;
+   height:200px;
+   background-color: rgba(32, 30, 30, 0.5);
+   box-sizing: border-box;
+   margin-top: 35%;
+   font-size: 20px;
+   font-family:Lucida Console;
+   color: rgb(242, 246, 249);
+   word-spacing: 2px;
+   line-height: 1.6;
+   position: relative;
+}
+.but3{
+   width:150px;
+   height:50px;
+   border:2px solid beige;
+   margin-top: -40%;
+   margin-left: 5%;
+   border-radius: 15%;
+   background-color: rgba(32, 30, 30, 0.3);
+   position: absolute;
+}
+/*
+@media (min-aspect-ratio:16/9){
+   .backa_vedio{
+       width:100%;
+       height:auto;
+   }
+}
+@media (max-aspect-ratio:16/9){
+   .backa_vedio{
+       width:auto;
+       height:100%;
+   }
+}*/
